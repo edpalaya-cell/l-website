@@ -28,7 +28,7 @@ HTML = """
             text-shadow: 0 0 20px rgba(255, 0, 100, 0.8), 0 0 40px rgba(255, 0, 100, 0.5);
             animation: pulse 2s infinite;
         }
-        .message h1 { font-size: 3.5rem; margin-bottom: 15px; }
+        .message h1 { font-size: 3.2rem; margin-bottom: 15px; }
         .message p { font-size: 1.5rem; }
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
@@ -105,7 +105,7 @@ HTML = """
 </head>
 <body>
     <div class="message">
-        <h1>I Love You ❤️</h1>
+        <h1>I Love You <span style="color: #ffeb3b;">samantha</span> ❤️</h1>
         <p>You make my heart float like these balloons</p>
         <p style="margin-top: 12px; font-size: 1.3rem;">Forever & Always 💕</p>
     </div>
